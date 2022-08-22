@@ -6,4 +6,6 @@ yarn add ts-node typescript @types/node
 mkdir src
 echo "console.log('hello, world');" >> src/main.ts
 echo "# Node Typescript Starter App  \n npx ts-node src/main.ts  \n" >> README.md
+echo node_modules/ >> .gitignore
+git add . && git commit -m "Initialised Project"
 nvim .
